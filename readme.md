@@ -19,3 +19,6 @@ Este proyecto usa Nodejs y Tampermonkey para hacer un overlay de lo que estas es
 4. Copia el script del arcchivo YouTube Info Fetcher-0.2.user.js a Tampermonkey en tu navegador de uso
 
 5. En Obs usa overlay.html en la fuente de navegador
+
+## Uso
+Una vez encendido el servidor ws y configurado OBS se puede usar en mix de youtube
