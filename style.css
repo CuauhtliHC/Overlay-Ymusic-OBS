@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #60656f;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 0.025rem;
+}
+.thumbnail-container {
+  position: absolute;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  left: 1.5rem;
+  top: -3rem;
+  z-index: 2;
+  overflow: hidden;
+  box-shadow: 0 2rem 2rem -2rem rgba(0, 0, 0, 0.5),
+    0 0rem 1.5rem 0 rgba(0, 0, 0, 0.2);
+}
+.panel {
+  position: relative;
+  height: 6.5rem;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+#thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: spin 2.5s linear infinite;
+}
+#info {
+  margin-top: 20px;
+  text-align: center;
+}
+#title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+#artist {
+  font-size: 0.8rem;
+}
+
+.player {
+  overflow: hidden;
+  border-radius: 1rem;
+  width: 36rem;
+  box-shadow: 0 2rem 2rem -2rem rgba(black, 0.5),
+    0 1rem 4rem -1rem rgba(black, 0.2);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
