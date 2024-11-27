@@ -1,24 +1,24 @@
 # Overlay YMusic OBS
 
-Este proyecto usa Nodejs y Tampermonkey para hacer un overlay de lo que estas escuchando en youtube desde el navegador para OBS
+This project uses Node.js and Tampermonkey to create an overlay of what you're listening to on YouTube from the browser for OBS.
 
-## Instalación
+## Installation
 
-1. Clona este repositorio:
+1. Clone this repository:
    ```bash
    git clone https://github.com/usuario/proyecto.git
    ```
-2. Instala las dependencias:
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. Inicia el servidor de desarrollo:
+3. Start the development server:
    ```bash
    npm run dev
    ```
-4. Copia el script del arcchivo YouTube Info Fetcher-0.2.user.js a Tampermonkey en tu navegador de uso
+4. Copy the script from the file YouTube Info Fetcher-0.2.user.js to Tampermonkey in your browser.
 
-5. En Obs usa overlay.html en la fuente de navegador
+5. In OBS, use overlay.html as a browser source.
 
-## Uso
-Una vez encendido el servidor ws y configurado OBS se puede usar en mix de youtube
+## Usage
+Once the WebSocket server is running and OBS is configured, it can be used for a YouTube mix.
