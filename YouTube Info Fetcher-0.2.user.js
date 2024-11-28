@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  Obtén información de un video de YouTube abierto en una pestaña
 // @author       Cuauhtli HC
-// @match        https://www.youtube.com/watch*&index=*
+// @match        https://www.youtube.com/watch*
 // @grant        none
 // ==/UserScript==
 
