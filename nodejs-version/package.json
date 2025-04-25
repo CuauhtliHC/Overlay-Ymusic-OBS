@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "ws": "^8.18.0",
-    "ytdl-core": "^4.11.5"
+    "youtube-sr": "^4.3.11"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Info Fetcher",
+  "version": "1.0",
+  "description": "Envía información del video de YouTube abierto a un servidor WebSocket.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": ["ws://localhost:5500/"]
+}
